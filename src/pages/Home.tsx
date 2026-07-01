@@ -64,7 +64,7 @@ function Hero() {
         </motion.div>
 
         <div className="mx-auto w-full max-w-[460px]">
-          <ImageFrame src={hero.image} alt="Healthy, beautiful textured hair" ratio="aspect-[4/5]" />
+          <ImageFrame src={hero.image} alt="Healthy, beautiful textured hair" ratio="aspect-square" />
         </div>
       </div>
     </Section>
@@ -96,7 +96,7 @@ function WhoWeServe() {
         {home.whoWeServe.map((p) => (
           <StaggerItem key={p.title}>
             <Card interactive className="h-full overflow-hidden p-0">
-              <ImageFrame src={p.image} alt={p.title} ratio="aspect-[4/3]" rounded={false} />
+              <ImageFrame src={p.image} alt={p.title} ratio="aspect-square" rounded={false} />
               <div className="p-6 text-center">
                 <div className="mx-auto -mt-12 mb-3 flex h-12 w-12 items-center justify-center rounded-pill bg-white text-botanical shadow-card">
                   <Icon name={p.icon} size={24} />

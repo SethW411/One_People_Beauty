@@ -55,7 +55,7 @@ function TextureCategories() {
         {personas.textureCategories.map((t) => (
           <StaggerItem key={t.title}>
             <Card interactive className="h-full overflow-hidden p-0">
-              <ImageFrame src={t.image} alt={t.title} ratio="aspect-[4/3]" rounded={false} />
+              <ImageFrame src={t.image} alt={t.title} ratio="aspect-square" rounded={false} />
               <div className="p-6 text-center">
                 <div className="mx-auto -mt-12 mb-3 flex h-12 w-12 items-center justify-center rounded-pill bg-white text-botanical shadow-card">
                   <Icon name={t.icon} size={24} />
