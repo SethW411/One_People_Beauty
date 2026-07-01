@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/cn";
+import { asset } from "@/lib/asset";
 
 interface ImageFrameProps {
   src?: string;
@@ -39,7 +40,7 @@ export default function ImageFrame({
     >
       {showImg && (
         <img
-          src={src}
+          src={asset(src)}
           alt={alt}
           loading="lazy"
           onLoad={() => setLoaded(true)}
