@@ -11,9 +11,9 @@ interface ImageFrameProps {
 }
 
 /**
- * Image with a branded gradient placeholder. Until real photography is dropped
- * into public/images by the editor app, missing/loading images show a soft
- * cocoa→honey gradient instead of a broken-image icon.
+ * Framed image: a thin gray outline (border-frame) over a matching gray
+ * background (bg-frame). The background shows through any transparent area or
+ * letterbox, so a cropped/loading image's background matches its outline.
  */
 export default function ImageFrame({
   src,
@@ -29,7 +29,9 @@ export default function ImageFrame({
   return (
     <div
       className={cn(
-        "relative overflow-hidden bg-gradient-to-br from-cocoa/15 via-sand to-honey/20",
+        // Thin gray outline + matching background (shows through any transparent
+        // area or letterbox, so a cropped image's background matches its outline).
+        "relative overflow-hidden border border-frame bg-frame",
         ratio,
         rounded && "rounded-card",
         className,

@@ -48,6 +48,10 @@ const MAP = [
 // Cap the largest dimension; keeps files small without visible quality loss.
 const MAX_EDGE = 1280;
 
+// Crop/letterbox background = the image outline color (Tailwind `frame`), so any
+// transparent area of a cropped image matches its outline on the site.
+const FRAME = { r: 0xd3, g: 0xcf, b: 0xc8 };
+
 let ok = 0;
 for (const [from, to] of MAP) {
   const srcPath = path.join(SRC, from);
@@ -56,6 +60,7 @@ for (const [from, to] of MAP) {
   try {
     await sharp(srcPath)
       .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: "inside", withoutEnlargement: true })
+      .flatten({ background: FRAME }) // transparent -> frame gray (matches outline)
       .webp({ quality: 80 })
       .toFile(outPath);
     ok++;

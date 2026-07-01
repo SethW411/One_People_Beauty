@@ -15,6 +15,8 @@ export default {
         botanical: "#6E8F6A",
         sand: "#EFE3D8",
         error: "#C0392B",
+        // Shared image outline + crop/letterbox background (keep these identical).
+        frame: "#D3CFC8",
       },
       fontFamily: {
         heading: ['"Playfair Display"', "serif"],
