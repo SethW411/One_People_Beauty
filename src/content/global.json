@@ -1,0 +1,17 @@
+{
+  "brandName": "One People Beauty",
+  "tagline": "Out of Many Beauty",
+  "footer": {
+    "blurb": "Exceptional hair care for wavy, curly, and coily textures — infused with nutrient-rich ingredients that nourish, repair, and strengthen.",
+    "legalLinks": [
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" }
+    ],
+    "marketLink": { "label": "Market Opportunity", "path": "/market" },
+    "secondaryLinks": [
+      { "label": "Who We Serve", "path": "/personas" },
+      { "label": "About the Founder", "path": "/about" }
+    ]
+  },
+  "socials": []
+}

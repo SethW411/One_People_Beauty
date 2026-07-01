@@ -1,0 +1,8 @@
+Customer Personas - Demographics
+
+Age: 25-45
+Gender: Female
+Marital Status: Single
+Income: $32K to $72K
+Education: College educated
+Location: Urban or Suburban Area

@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "heading": "The Collection",
+    "body": "Six essentials formulated for wavy, curly, and coily hair (types 3B–4B)."
+  },
+  "products": [
+    { "id": "shampoo", "name": "Shampoo", "textures": ["3B–4B"] },
+    { "id": "leave-in-mask", "name": "Leave-in Mask", "textures": ["3B–4B"] },
+    { "id": "leave-in-conditioner", "name": "Leave-in Conditioner", "textures": ["3B–4B"] },
+    { "id": "oil-serum", "name": "Oil Serum", "textures": ["3B–4B"] },
+    { "id": "mousse", "name": "Mousse", "textures": ["3B–4B"] },
+    { "id": "curl-defining-cream", "name": "Curl Defining Cream", "textures": ["3B–4B"] }
+  ],
+  "feature": {
+    "heading": "Powered by Our Patented Complex",
+    "body": "Our patented complex delivers conditioning benefits that nourish, fortify, and protect — while promoting extraordinary, healthy hair growth and helping hair hold styles and resist frizz."
+  },
+  "ingredients": {
+    "heading": "Key Ingredients",
+    "intro": "Restorative ingredients sourced from around the world, from suppliers who share our values of sustainability and ethical practices.",
+    "items": [
+      { "name": "Jamaican Black Castor Oil" },
+      { "name": "Baobab" },
+      { "name": "Virgin Coconut Oil" },
+      { "name": "Organic Argan Oil" }
+    ]
+  }
+}

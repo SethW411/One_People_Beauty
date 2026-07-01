@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "h1": "Out of Many Beauty",
+    "subtext": "Exceptional hair care for wavy, curly, and coily textures — designed to help you feel proud of your natural hair.",
+    "image": "/images/about/solution-01.webp",
+    "primaryCta": { "label": "Explore the Collection", "href": "/products" },
+    "secondaryCta": { "label": "Our Story", "href": "/about" }
+  },
+  "mission": {
+    "heading": "Our Mission",
+    "body": "We are passionate about hair health and inclusivity. Our mission is to help women of all hair textures feel proud of their natural hair by providing exceptional products designed for wavy, curly, and coily hair — infused with nutrient-rich ingredients that nourish, repair, and strengthen."
+  },
+  "whoWeServe": [
+    {
+      "title": "Wavy",
+      "icon": "Waves",
+      "image": "/images/personas/shopping.webp"
+    },
+    {
+      "title": "Curly",
+      "icon": "Spiral",
+      "image": "/images/about/problem-03.webp"
+    },
+    {
+      "title": "Coily",
+      "icon": "CirclesThree",
+      "image": "/images/personas/urban-professional.webp"
+    }
+  ],
+  "values": [
+    { "label": "Inclusivity", "icon": "UsersThree" },
+    { "label": "Health", "icon": "Heartbeat" },
+    { "label": "Sustainability", "icon": "Leaf" },
+    { "label": "Ritual", "icon": "Repeat" }
+  ]
+}

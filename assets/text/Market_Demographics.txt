@@ -1,0 +1,25 @@
+U.S. Hair Care - Market Demographics
+Source: 2021 U.S. Demographic Stats, U.S. Census
+
+Total population: 331,893,745 (100%)
+Male: 162,959,828 (49.1%)
+Female: 168,933,916 (50.9%)
+Median age: 35.3 years
+
+Age distribution:
+15 to 19 years: 23,896,349 (7.2%)
+20 to 24 years: 22,236,881 (6.7%)
+25 to 34 years: 47,128,992 (14.2%)
+35 to 44 years: 53,102,999 (16.0%)
+45 to 54 years: 44,473,761 (13.4%)
+55 to 59 years: 15,930,899 (4.8%)
+
+Target segment notes:
+~62% of the population falls within ages 15-59 (incl. 15-19 & 55-59)
+~50% excluding 15-19 & 55-59
+~36% excluding 45-54
+
+Generations:
+Generation X: ages 42-57 (born 1965-1980)
+Millennials: ages 26-41 (born 1981-1996)
+Generation Z: ages 10-25 (born 1997-2012)

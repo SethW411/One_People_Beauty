@@ -1,0 +1,39 @@
+{
+  "heading": "Market Opportunity",
+  "intro": "",
+  "kpis": [
+    { "label": "Global hair care market (2021)", "value": 94.92, "prefix": "$", "suffix": "B" },
+    { "label": "Female segment share", "value": 73, "prefix": "", "suffix": "%" },
+    { "label": "Total addressable market (textured)", "value": 53, "prefix": "$", "suffix": "B" }
+  ],
+  "marketSize": [
+    { "label": "2020", "value": 92.52 },
+    { "label": "2021", "value": 94.92 },
+    { "label": "2025 (proj.)", "value": 105.14 }
+  ],
+  "spend": [
+    { "label": "Wavy / Curly / Coily", "value": 247 },
+    { "label": "Naturally straight", "value": 139 }
+  ],
+  "narrative": [
+    {
+      "heading": "Market Size & Growth",
+      "paragraphs": [
+        "The global hair care market was valued at $92.52 billion in 2020 and $94.92 billion in 2021, with projected sales of $105.14 billion by 2025.",
+        "The female hair care segment continues to lead the market, accounting for approximately 73% of global revenue — about $70 billion."
+      ]
+    },
+    {
+      "heading": "An Underserved, High-Value Segment",
+      "paragraphs": [
+        "An estimated 216 million people in the U.S. have wavy, curly, or coily hair, and they spend an average of $247 per year on products — versus $139 for those with naturally straight hair.",
+        "The total addressable market for textured-hair products is approximately $53 billion, with a consumer base that is loyal, research-driven, and increasingly buying premium beauty."
+      ]
+    }
+  ],
+  "images": [
+    "/images/market/overview-01.webp",
+    "/images/market/continued-01.webp",
+    "/images/market/overview-02.webp"
+  ]
+}

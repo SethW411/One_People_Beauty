@@ -1,0 +1,13 @@
+{
+  "form": {
+    "heading": "Get in Touch",
+    "textureOptions": ["Wavy", "Curly", "Coily", "Not sure yet"],
+    "endpoint": ""
+  },
+  "trust": {
+    "heading": "Let's Stay Connected",
+    "founderPhoto": "/images/about/founder-02.webp",
+    "missionSnippet": "We are passionate about hair health and inclusivity — helping women of all hair textures feel proud of their natural hair.",
+    "note": "We're building something special. Full contact details are coming soon — in the meantime, send us a message and we'll be in touch."
+  }
+}

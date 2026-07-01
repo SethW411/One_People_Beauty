@@ -1,0 +1,57 @@
+{
+  "missionFull": {
+    "heading": "We Are Passionate About Hair Health and Inclusivity",
+    "paragraphs": [
+      "Our mission is to help women of all hair textures feel proud of their natural hair by providing exceptional products designed for wavy, curly, and coily hair.",
+      "Infused with nutrient-rich ingredients, our products nourish, repair, and strengthen — leading to extraordinary results that enhance self-expression and boost self-confidence through proper hair care rituals.",
+      "No matter your hair type, texture, or pattern — whether a loose wave, bouncy curls, or tight coils — your needs are unique, and we are here to celebrate them."
+    ],
+    "image": "/images/about/problem-02.webp"
+  },
+  "founder": {
+    "name": "Michelle O'Connor",
+    "role": "Founder & CEO",
+    "photo": "/images/about/founder-01.webp",
+    "story": [
+      "Michelle O'Connor is a 20-year hair stylist and a five-time NAHA winner — a trailblazer, influencer, educator, Matrix global artistic director, and an emerging voice on diversity and inclusion within the beauty industry.",
+      "As a stylist, colorist, and educator specializing in textured, patterned hair for over 20 years, she's proud to be part of a movement that celebrates the beauty of our hair. Throughout her career, she and her clients have seen the transformative effect of three things: great products designed for textured hair, nutrient-rich ingredients, and proper hair care rituals.",
+      "Her Caribbean heritage and passion for beautiful hair give her a deep, personal understanding of the needs of textured hair. The Caribbean is a melting pot of cultures, textures, and patterns — a fusion that expresses itself in our hair rituals and in the restorative ingredients found throughout the islands. It informs everything we do at One People Beauty."
+    ]
+  },
+  "problem": {
+    "heading": "The Problem We Solve",
+    "points": [
+      {
+        "title": "Moisture Retention",
+        "body": "Curly, wavy, and coily hair types tend to have a more porous structure due to the natural shape of the hair strands. This makes it easier for moisture to escape and hair to become dry and frizzy."
+      },
+      {
+        "title": "Growth",
+        "body": "Curly, wavy, and coily hair can appear to grow more slowly than straight hair because of the coil pattern, which can make length changes challenging to notice."
+      },
+      {
+        "title": "Performance",
+        "body": "When hair doesn't perform as desired, it can lead to styling difficulties, loss of curl definition, and the need for frequent touch-ups or restyling."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "The Solution",
+    "intro": "Our patented complex delivers conditioning benefits that nourish, fortify, and protect — while promoting extraordinary, healthy hair growth and helping hair maintain its natural curl or wave pattern, hold styles, and resist frizz.",
+    "pillars": [
+      { "title": "Nourish", "icon": "Drop" },
+      { "title": "Fortify", "icon": "Barbell" },
+      { "title": "Protect", "icon": "ShieldCheck" }
+    ]
+  },
+  "ingredients": {
+    "heading": "Our Ingredients",
+    "intro": "We carefully source our ingredients from around the world and work with suppliers who share our values of sustainability and ethical practices.",
+    "items": [
+      { "name": "Jamaican Black Castor Oil" },
+      { "name": "Baobab" },
+      { "name": "Virgin Coconut Oil" },
+      { "name": "Organic Argan Oil" }
+    ]
+  }
+}

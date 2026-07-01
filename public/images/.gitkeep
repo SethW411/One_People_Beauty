@@ -1,0 +1,3 @@
+# Content images live here. The editor app (app #2) drops optimized WebP files
+# into this folder (and subfolders like products/, about/, personas/, education/).
+# Content JSON references them by path, e.g. "/images/products/moisture-cream.webp".

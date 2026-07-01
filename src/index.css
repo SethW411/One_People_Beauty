@@ -1,0 +1,144 @@
+/* Self-hosted fonts (no external CDN) */
+@import "@fontsource/playfair-display/500.css";
+@import "@fontsource/playfair-display/600.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --side-padding: theme("spacing.gutter-mobile");
+    --section-gap: theme("spacing.section-mobile");
+  }
+
+  @screen tablet {
+    :root {
+      --side-padding: theme("spacing.gutter-desktop");
+      --section-gap: theme("spacing.section-desktop");
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Hero ambient motion */
+  @keyframes float-slow {
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-14px) scale(1.03);
+    }
+  }
+  @keyframes drift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .animate-float-slow {
+    animation: float-slow 8s ease-in-out infinite;
+  }
+
+  /* Ambient hero strands — very slow, gentle drift */
+  @keyframes ambient-drift {
+    0%,
+    100% {
+      transform: translate(-50%, -50%) translateX(0) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) translateX(-2.5%) scale(1.04);
+    }
+  }
+  .ambient-drift {
+    animation: ambient-drift 26s ease-in-out infinite;
+  }
+
+  /* Part 1 of the load-in: cream overlay that fades out once on first paint */
+  .page-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(247, 243, 239, 0.25); /* cream */
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0;
+    animation: overlay-fade 0.1s ease-out forwards;
+  }
+  @keyframes overlay-fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  /* Part 3 of the load-in: soft honey glow behind the hero (pulsed via GSAP) */
+  .hero-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+      circle,
+      rgba(217, 164, 65, 0.15) 0%,
+      rgba(217, 164, 65, 0) 70%
+    );
+    opacity: 0;
+    pointer-events: none;
+    filter: blur(40px);
+    z-index: -10;
+  }
+  .animate-drift {
+    background-size: 200% 200%;
+    animation: drift 14s ease-in-out infinite;
+  }
+
+  body {
+    @apply bg-cream text-charcoal font-body text-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading text-charcoal;
+    text-wrap: balance;
+  }
+
+  h1 {
+    @apply text-h1;
+  }
+  h2 {
+    @apply text-h2;
+  }
+  h3 {
+    @apply text-h3;
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
