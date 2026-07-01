@@ -13,7 +13,7 @@ const primaryLinks = routes.filter((r) => r.inNav);
  */
 export default function Footer() {
   const year = new Date().getFullYear();
-  const { footer, socials, brandName } = global;
+  const { footer, socials, brandName, tagline } = global;
 
   return (
     <footer className="bg-charcoal text-cream/80">
@@ -21,6 +21,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="tablet:col-span-2">
           <p className="font-heading text-xl text-cream">{brandName}</p>
+          <p className="text-small text-cream/60">{tagline}</p>
           <p className="mt-3 max-w-sm text-small leading-relaxed">{footer.blurb}</p>
           {socials.length > 0 && (
             <div className="mt-5 flex gap-4">
@@ -84,7 +85,7 @@ export default function Footer() {
       <div className="border-t border-cream/10">
         <Container className="flex flex-col gap-3 py-5 text-small text-cream/50 tablet:flex-row tablet:items-center tablet:justify-between">
           <p>
-            © {year} {brandName}. All rights reserved.
+            © {year} One People Beauty. All rights reserved.
           </p>
           <ul className="flex gap-5">
             {footer.legalLinks.map((l) => (

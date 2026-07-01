@@ -98,14 +98,6 @@ export interface PersonasContent {
     stats: { label: string; value: string; suffix?: string }[];
   };
   textureCategories: { title: string; icon: string; image: string }[];
-  targetConsumer: { heading: string; text: string; image: string };
-  persona: {
-    name: string;
-    image: string;
-    demographics: { label: string; value: string }[];
-    traits: { label: string; value: string }[];
-  };
-  shoppingBehavior: { trait: string; description: string }[];
 }
 
 /* ------------------------------ products.json ----------------------------- */

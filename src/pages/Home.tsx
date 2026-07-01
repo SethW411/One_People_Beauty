@@ -47,7 +47,7 @@ function Hero() {
             variants={item}
             className="mb-3 text-small font-medium uppercase tracking-[0.2em] text-botanical"
           >
-            One People Beauty
+            A One People Beauty Brand
           </motion.p>
           <motion.h1 variants={item} className="max-w-xl">
             {hero.h1}

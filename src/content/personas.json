@@ -12,50 +12,5 @@
     { "title": "Wavy", "icon": "Waves", "image": "/images/personas/shopping.webp" },
     { "title": "Curly", "icon": "Spiral", "image": "/images/about/problem-03.webp" },
     { "title": "Coily", "icon": "CirclesThree", "image": "/images/personas/urban-professional.webp" }
-  ],
-  "targetConsumer": {
-    "heading": "Our Target Consumer",
-    "text": "Generation Z and Millennials of all races with wavy, curly, and coily hair. They research before they buy, value natural and beneficial ingredients, and reward brands that understand their texture. As a group, they have meaningful disposable income and are increasingly buying luxury beauty.",
-    "image": "/images/personas/target-01.webp"
-  },
-  "persona": {
-    "name": "The Urban Professional",
-    "image": "/images/personas/urban-professional.webp",
-    "demographics": [
-      { "label": "Age", "value": "25–45" },
-      { "label": "Gender", "value": "Female" },
-      { "label": "Marital Status", "value": "Single" },
-      { "label": "Income", "value": "$32K–$72K" },
-      { "label": "Education", "value": "College educated" },
-      { "label": "Location", "value": "Urban or Suburban" }
-    ],
-    "traits": [
-      {
-        "label": "Lifestyle",
-        "value": "A busy urban professional who enjoys a comfortable lifestyle and values quality, willing to pay a premium for superior products."
-      },
-      {
-        "label": "Values",
-        "value": "Quality and luxury — happy to pay for premium brands that deliver."
-      },
-      {
-        "label": "Motivation",
-        "value": "Highly motivated to care for her hair and curious about new, mostly natural ingredients that benefit it."
-      }
-    ]
-  },
-  "shoppingBehavior": [
-    {
-      "trait": "Brand Loyalty",
-      "description": "Open to trying new brands and loyal to premium and luxury ones. Often seen in designer clothing, carrying moderate-to-luxury handbags, and using high-end cosmetics."
-    },
-    {
-      "trait": "Influence",
-      "description": "Influenced by online reviews, influencer endorsements, and brand authenticity."
-    },
-    {
-      "trait": "Experiential Shopping",
-      "description": "Enjoys the ambiance of upscale stores and personalized customer service."
-    }
   ]
 }

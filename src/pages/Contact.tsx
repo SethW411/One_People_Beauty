@@ -60,7 +60,7 @@ function TrustAnchor() {
       <div className="grid items-center gap-10 tablet:grid-cols-[280px_1fr]">
         <ImageFrame
           src={trust.founderPhoto}
-          alt="One People Beauty founder"
+          alt="Out of Many Beauty founder"
           ratio="aspect-[4/5]"
           className="mx-auto w-full max-w-[280px]"
         />

@@ -68,89 +68,11 @@ function TextureCategories() {
   );
 }
 
-function TargetConsumer() {
-  const { targetConsumer } = personas;
-  return (
-    <Section>
-      <div className="grid items-center gap-10 tablet:grid-cols-2">
-        <ImageFrame src={targetConsumer.image} alt="Our target consumer" ratio="aspect-[4/3]" />
-        <div>
-          <SectionHeading title={targetConsumer.heading} eyebrow="Target Consumer" />
-          <p className="mt-6 text-charcoal/80">{targetConsumer.text}</p>
-        </div>
-      </div>
-    </Section>
-  );
-}
-
-function Persona() {
-  const { persona } = personas;
-  return (
-    <Section bg="white">
-      <SectionHeading eyebrow="Customer Persona" title={persona.name} className="mx-auto" />
-      <div className="mt-10 grid gap-10 tablet:grid-cols-[360px_1fr]">
-        <ImageFrame
-          src={persona.image}
-          alt={persona.name}
-          ratio="aspect-[4/5]"
-          className="mx-auto w-full max-w-[360px]"
-        />
-        <div>
-          <div className="grid grid-cols-2 gap-4">
-            {persona.demographics.map((d) => (
-              <div key={d.label} className="rounded-card bg-cream p-4">
-                <p className="text-small uppercase tracking-widest text-charcoal/55">{d.label}</p>
-                <p className="mt-1 font-medium">{d.value}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-6 space-y-4">
-            {persona.traits.map((t) => (
-              <div key={t.label}>
-                <p className="text-small font-semibold uppercase tracking-widest text-botanical">
-                  {t.label}
-                </p>
-                <p className="mt-1 text-charcoal/80">{t.value}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </Section>
-  );
-}
-
-function ShoppingBehavior() {
-  return (
-    <Section reveal={false}>
-      <SectionHeading
-        eyebrow="Shopping Behavior"
-        title="How she shops"
-        align="center"
-        className="mx-auto"
-      />
-      <Stagger className="mt-12 grid gap-6 tablet:grid-cols-3">
-        {personas.shoppingBehavior.map((b) => (
-          <StaggerItem key={b.trait}>
-            <Card className="h-full">
-              <h3 className="text-h3">{b.trait}</h3>
-              <p className="mt-3 text-small text-charcoal/75">{b.description}</p>
-            </Card>
-          </StaggerItem>
-        ))}
-      </Stagger>
-    </Section>
-  );
-}
-
 export default function Personas() {
   return (
     <>
       <Overview />
       <TextureCategories />
-      <TargetConsumer />
-      <Persona />
-      <ShoppingBehavior />
     </>
   );
 }
