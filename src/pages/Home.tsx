@@ -63,8 +63,15 @@ function Hero() {
           </motion.div>
         </motion.div>
 
-        <div className="mx-auto w-full max-w-[460px]">
-          <ImageFrame src={hero.image} alt="Healthy, beautiful textured hair" ratio="aspect-square" />
+        <div className="relative mx-auto w-full max-w-[460px] overflow-hidden rounded-card">
+          <ImageFrame
+            src={hero.image}
+            alt="Healthy, beautiful textured hair"
+            ratio="aspect-square"
+            rounded={false}
+          />
+          {/* Fade the studio background into the cream page */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-cream to-transparent" />
         </div>
       </div>
     </Section>
@@ -96,9 +103,13 @@ function WhoWeServe() {
         {home.whoWeServe.map((p) => (
           <StaggerItem key={p.title}>
             <Card interactive className="h-full overflow-hidden p-0">
-              <ImageFrame src={p.image} alt={p.title} ratio="aspect-square" rounded={false} />
-              <div className="p-6 text-center">
-                <div className="mx-auto -mt-12 mb-3 flex h-12 w-12 items-center justify-center rounded-pill bg-white text-botanical shadow-card">
+              <div className="relative">
+                <ImageFrame src={p.image} alt={p.title} ratio="aspect-square" rounded={false} />
+                {/* Fade the photo's studio background into the white card */}
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-white via-white/70 to-transparent" />
+              </div>
+              <div className="relative -mt-6 px-6 pb-6 text-center">
+                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-pill bg-white text-botanical shadow-card">
                   <Icon name={p.icon} size={24} />
                 </div>
                 <h3 className="text-h3">{p.title}</h3>
